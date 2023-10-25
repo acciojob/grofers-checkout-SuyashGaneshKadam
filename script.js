@@ -13,6 +13,7 @@ const getSum = () => {
 	let tr = document.createElement("tr");
 	let td = document.createElement("td");
 	td.innerText = sum;
+	td.id = "ans";
 	tr.append(td);
 	let table = document.querySelector("table");
 	table.append(tr);
